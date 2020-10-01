@@ -52,10 +52,10 @@ for _ in 1...tineLength {
     print("")
 }
 //print top of handle
-for _ in 1...spacing + 2 {
-    print("*", terminator: " ")
-}
-//print handle
-for _ in 1...handlelength {
+for _ in 1...spacing * 2 + 3 {
     print("*", terminator: "")
 }
+////print handle
+//for _ in 1...handlelength {
+//    print("*")
+//}
